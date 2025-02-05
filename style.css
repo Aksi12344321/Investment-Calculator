@@ -1,0 +1,45 @@
+body {
+  background-color: #399;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  width: min(500px, 90vw);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.range-input {
+  margin-bottom: 20px;
+}
+
+.range-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.range-input input[type="range"] {
+  width: 100%;
+}
+
+.range-value {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.result {
+  background-color: rgba(57, 145, 246, 0.4);
+  padding: 20px;
+  text-align: center;
+}
